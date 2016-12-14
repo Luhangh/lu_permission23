@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/permission"
+        android:textSize="16sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="仿微信权限启动"
+        android:onClick="gopremiss"
+        android:enabled="true"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/plug_in"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="不提示权限启动"
+        android:onClick="gopremiss1"
+        android:enabled="true"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/plug_in1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="权限设置"
+        android:onClick="startAppSettings"
+        android:enabled="true"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/plug_in3"/>
+
+</LinearLayout>
