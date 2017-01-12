@@ -9,6 +9,12 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * 展示启动页面
+ * <p/>
+ * Created by luhang on 16/11/15.
+ */
+
 public class MainActivity extends AppCompatActivity {
     private static final String PACKAGE_URL_SCHEME = "package:"; // 方案
     @Override
