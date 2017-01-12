@@ -16,7 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * 权限获取页面
  * <p/>
- * Created by wangchenlong on 16/1/26.
+ * Created by luhang on 16/11/15.
  */
 public class PermissionsActivity extends AppCompatActivity {
 
