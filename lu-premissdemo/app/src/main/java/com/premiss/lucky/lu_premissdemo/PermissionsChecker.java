@@ -7,7 +7,7 @@ import android.support.v4.content.ContextCompat;
 /**
  * 检查权限的工具类
  * <p/>
- * Created by wangchenlong on 16/1/26.
+ * Created by luhang on 16/11/15.
  */
 public class PermissionsChecker {
     private final Context mContext;
