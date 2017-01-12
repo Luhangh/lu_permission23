@@ -7,6 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.widget.Button;
 
+/**
+ * 权限展示页面
+ * <p/>
+ * Created by luhang on 16/11/15.
+ */
+
 public class FirstActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE = 0; // 请求码
