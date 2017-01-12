@@ -15,17 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
+            
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        if(!TextUtils.isEmpty(getIntent().getStringExtra("start"))){
-            Toast.makeText(this,"请主动开启权限设置",Toast.LENGTH_SHORT).show();
-        }
     }
 
     public void gopremiss(View view){
